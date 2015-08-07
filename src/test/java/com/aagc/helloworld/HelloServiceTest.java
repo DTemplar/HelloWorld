@@ -43,7 +43,7 @@ public class HelloServiceTest {
     @org.junit.Test
     public void testSayHello() {
         System.out.println("sayHello");
-        String name = "Zeratul";
+        String name = "Tassadar";
         HelloService instance = new HelloService();
         String expResult = "Hello Tassadar";
         String result = instance.sayHello(name);
