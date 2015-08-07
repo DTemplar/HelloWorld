@@ -43,9 +43,9 @@ public class HelloServiceTest {
     @org.junit.Test
     public void testSayHello() {
         System.out.println("sayHello");
-        String name = "Alberto";
+        String name = "Zeratul";
         HelloService instance = new HelloService();
-        String expResult = "Hello Alberto";
+        String expResult = "Hello Tassadar";
         String result = instance.sayHello(name);
         assertEquals(expResult, result);
     }
